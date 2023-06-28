@@ -1,0 +1,9 @@
+iterator object can only access elements in a sequence from first elements to the last elements 
+
+next method is need to advances the iterator object 
+there is no previous method to traverse object on the element in reverse direction 
+
+Traversal is possible in  1 direction only 
+Similarly,
+        You can not randomly access the elements using iterator
+        

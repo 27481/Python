@@ -1,0 +1,4 @@
+// Stop ITeration 
+
+When next method is called for an last object which surpasses the last element of the contianer object, then it produces a error called StopIteration exception 
+

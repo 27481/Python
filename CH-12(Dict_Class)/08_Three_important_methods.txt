@@ -1,0 +1,12 @@
+3 Operations on dict class container 
+
+
+# 1> If the key already exits in the dict then data will edited 
+# 2> If the key do not exists then the new element will be added i.e new key:value pair
+# 3> we can delete a key, and then create a new key of same name and assign new data 
+
+
+# Syntax of (add) and (edit) in dict is same but depends if the on the value if its already exits in the dict or not 
+
+if key exits then it will editing , if the key does not exits then it will be adding
+

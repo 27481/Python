@@ -1,0 +1,15 @@
+Agenda +++
+++++++++++
+
+
+1>  Str introduction
+2>  Creating str object
+3>  indexing
+4>  accessing str elements
+5>  built-in methods
+6>  Concatenation and repetition
+7>  Comparison operator
+8>  Str object methods
+9>  Format 
+10> Split and join
+11> slicing operator

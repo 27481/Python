@@ -1,0 +1,6 @@
+=========================Agenda========================================
+1> for loop 
+2> Pratice program
+3> for vs while
+4> break in for 
+5> for else

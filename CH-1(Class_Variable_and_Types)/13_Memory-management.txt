@@ -1,0 +1,10 @@
+
+in Python memory management, the heap is a region of memory where Python objects are stored. The heap is managed by the Python memory manager, which allocates and deallocates memory blocks on demand. Python objects are created on the heap and remain there until they are no longer needed, at which point they are garbage collected.
+
+The stack, on the other hand, is a region of memory that is used to store function call frames and local variables. Each time a function is called, a new frame is created on the stack to hold its local variables and return address. When the function returns, its frame is removed from the stack.
+
+Python uses a private heap for memory allocation, which means that memory is not allocated from the operating system directly. Instead, Python requests large chunks of memory from the operating system and manages them internally. This reduces the number of system calls needed for memory allocation and deallocation, and improves performance.
+
+The stack is used in Python to keep track of function calls and to store local variables. However, unlike in some other programming languages like C++, the Python stack is not accessible to the programmer, and there is no way to directly manipulate it.
+
+In summary, the heap is a region of memory where Python objects are stored, while the stack is used to store function call frames and local variables. Python uses a private heap for memory allocation, and the stack is managed internally and is not accessible to the programmer.

@@ -1,0 +1,11 @@
+so in python, the operators are function who are built-in in the python i mean python already has its implementation  is it true
+
+
+
+Yes, in Python, operators are built-in functions that are implemented as part of the language itself. They are designed to provide a concise and expressive way to perform common operations on values and variables.
+
+For example, the + operator in Python is implemented as a built-in function that takes two operands and returns their sum. Similarly, the * operator is implemented as a built-in function that takes two operands and returns their product.
+
+Because operators are built-in functions in Python, they have their own syntax and behavior that is specified by the language. This makes it easy for programmers to write clear and concise code that performs complex operations without having to write lengthy function calls or use complex syntax.
+
+It is also possible to define custom operators in Python using special syntax such as __add__ or __sub__, which allows programmers to extend the language with their own functionality. However, this is an advanced feature that is typically used only in specialized cases.

@@ -1,0 +1,16 @@
+what is a method ??
+
+In object-oriented programming, a method is a function that is defined inside a class. It is a piece of code that is designed to perform a specific task, and it can access the data and other methods of the class.
+
+
+Technically, a method is just a function, but the difference is that it is associated with a class and can be called on instances of that class. When a method is called on an instance of a class, it has access to the data of that instance and can modify it if necessary.
+
+
+Methods are a key concept in object-oriented programming because they allow us to encapsulate behavior with data. By defining methods inside a class, we can group related functionality together and provide a clean interface for interacting with that functionality.
+
+
+Overall, methods are an important part of object-oriented programming and play a crucial role in defining the behavior of classes and objects.
+
+
+// In python we call function defined inside the class as method 
+    whereas in C++ we call it "member function"

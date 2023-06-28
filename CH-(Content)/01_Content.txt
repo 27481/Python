@@ -1,0 +1,18 @@
+What you will learn ++
+++++++++++++++++++++++
+
+
+Python basic 
+List object basics 
+String objects
+Tuples
+Functions
+Memory Management 
+OOPS concepts
+Exception Handling 
+Files
+Database
+Web Development using python on Django 
+React
+Web API
+

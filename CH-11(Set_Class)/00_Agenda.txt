@@ -1,0 +1,11 @@
+Agenda 
+
+1> set introduction
+2> creating set object 
+3> Accessing set elements 
+4> built-in methods
+5> Concatination and Repetition operator 
+6> Comparision operators 
+7> Set object methods 
+8> Set Comprehensions
+9> User input 

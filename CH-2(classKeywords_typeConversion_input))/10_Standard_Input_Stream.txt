@@ -1,0 +1,14 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++
+what is standard input stream in c++ and python++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+In C++ and Python, the standard input stream is a predefined input source that is used to read input from the user or from another program.
+
+In C++, the standard input stream is represented by the std::cin object, which is part of the standard input/output library (<iostream>). std::cin is used to read input from the console or from a file, and can be used to read different data types, such as integers, floats, characters, and strings.
+
+In Python, the standard input stream is represented by the built-in input() function, which is used to read a line of text from the console or from a file. Like std::cin, input() returns a string, which can be converted to other data types as needed using the appropriate conversion functions, such as int() or float().
+
+Both std::cin and input() can be used to read input interactively from the user, or to read input from a file or another program. They are important tools for building command-line programs, scripts, and other applications that require user input.

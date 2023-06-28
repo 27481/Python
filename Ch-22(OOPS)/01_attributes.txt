@@ -1,0 +1,5 @@
+Attributes in Python are variables that belong to an object, and they hold information about the state of the object. They can be thought of as the data or properties of an object that define its current state.
+
+
+Attributes can be defined inside a class using the self parameter, which refers to the object itself. They can then be accessed or modified using dot notation, like
+

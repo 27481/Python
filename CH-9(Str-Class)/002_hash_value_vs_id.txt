@@ -1,0 +1,30 @@
+In Python, an ID and a hash value are two different things, although they can sometimes be confused with each other.
+
+An ID (short for "identity") is a unique identifier assigned to an object in Python. The ID is an integer that is guaranteed to be unique and constant for a given object during its lifetime. The ID is often used to compare two objects to see if they are the same object in memory, as opposed to having the same value. In Python, you can get an object's ID using the id() function.
+
+On the other hand, a hash value is a fixed-size integer that represents the contents of an object. The hash value is not guaranteed to be unique, but it is designed to be "well-distributed" among objects with different contents. Hash values are often used in Python for dictionary keys and set elements because they provide a way to quickly look up a value based on its contents. In Python, you can get an object's hash value using the hash() function.
+
+It's important to note that not all objects in Python have a hash value. Only objects that are "hashable" can be used as dictionary keys or set elements. Objects that are hashable are immutable, meaning their contents cannot be changed after they are created. Examples of hashable objects in Python include integers, strings, and tuples. Objects that are not hashable include lists and dictionaries, which can be modified after they are created.
+
+In summary, an ID is a unique identifier for an object in memory, while a hash value is a fixed-size integer that represents the contents of an object and is used for dictionary keys and set elements.
+
+
+
+Unique vs. Not Guaranteed to be Unique: An ID is guaranteed to be unique for a given object during its lifetime, while a hash value is not guaranteed to be unique.
+
+Memory Location vs. Object Contents: An ID represents the memory location of an object in Python, while a hash value represents the contents of an object.
+
+Integer vs. Integer or None: An ID is always an integer, while a hash value is also an integer or None, depending on the object's hashability.
+
+Object Identity vs. Equality: An ID is used to compare the identity of two objects in Python, while a hash value is used to compare the equality of two objects based on their contents.
+
+Mutability: An ID does not change during the lifetime of an object, while a hash value can change if the contents of the object are mutable and are modified after the object is hashed. However, hash values are generally only calculated once per object and then cached, so this is not a common occurrence.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Hashing++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Yes, in Python, a hash value is a way of mapping an object's contents to a fixed-size integer value. The hash function takes an object and produces a hash value, which can be used as a key in a dictionary or as an element in a set. When you use an object as a dictionary key or set element, Python first computes its hash value using the hash function, and then uses that value to determine the object's location in the dictionary or set.
+
+The hash function is designed to produce a hash value that is unique for objects with different contents, and is well-distributed so that objects with similar contents are likely to have different hash values. This is important because it allows Python to quickly look up objects in a dictionary or set based on their contents, without having to compare every object to every other object.
+
+It's worth noting that the hash function is not perfect, and collisions can occur, where two different objects have the same hash value. When this happens, Python uses a technique called "hash probing" to find a different location in the dictionary or set for the second object. However, collisions are rare in practice, especially for hashable objects like integers and strings, which have well-designed hash functions.

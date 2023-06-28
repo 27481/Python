@@ -1,0 +1,6 @@
+Agenda ====>>>
+
+1> Default Arguments
+2> Function always returns something 
+3> Position and keyword arguments
+4> Variable length Arguments

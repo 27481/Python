@@ -1,0 +1,10 @@
+1>  Tuple introduction 
+2>  Tuple object 
+3>  Indexing 
+4>  Accessing tuple elements 
+5>  built-in methods
+6>  Concatenation and Repetition operator 
+7>  Comparison operator 
+8>  Tuple object methods 
+9>  Slicing operator 
+10> User input 

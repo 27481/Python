@@ -1,0 +1,22 @@
+Agenda
+
+1> What is list?
+2> How to create list object?
+3> How to access list elements?
+4> Concept of negative indexing
+5> Accessing list elements of the list?
+6> How to delete an elements from a list?
+7> How to edit an elements of the list?
+8> How to add more elements in the list?
+9> Packing and unpacking 
+10> buit-in methods
+
+11> list() method 
+12> Comparison operator on list
+13> concatination operator
+14> Repetition operator 
+15> list of lists
+16> List object methods
+17> List comparison 
+18> user input 
+19> Mutablity and hashability 

@@ -1,0 +1,24 @@
+s1="This is a string"
+
+#! format function 
+# In Python, the format() function is used to format a string by replacing placeholders in the string with specified values. The format() function is a very powerful tool for creating dynamic strings that can be customized based on specific inputs.
+
+The basic syntax of the format() function is as follows:
+
+formatted_string = "Hello, my name is {} and I am {} years old".format(name, age)
+
+name = "Utkarsh"
+age = 30
+formatted_string = "Hello, my name is {} and I am {} years old".format(name, age)
+print(formatted_string)
+
+
+#! You can also use numbered placeholders or named placeholders to specify the order of the arguments, or to use the same argument multiple times:
+
+# Numbered placeholders
+formatted_string = "Hello, my name is {0} and I am {1} years old. {0} is my name again.".format(name, age)
+print(formatted_string)
+
+# Named placeholders
+formatted_string = "Hello, my name is {name} and I am {age} years old".format(name="John", age=30)
+print(formatted_string)

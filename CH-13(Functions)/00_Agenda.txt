@@ -1,0 +1,7 @@
+// Agenda 
+
+1> Function Introduction 
+2> Defining function
+3> Function call vs Function Definition
+4> Ways to define a function
+

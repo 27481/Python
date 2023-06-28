@@ -1,0 +1,10 @@
+# Map Reduce and Filter
+
+""" 
+! Python have 3 most most important function 
+
+1> Map 
+2> Reduce 
+3> filter 
+"""
+

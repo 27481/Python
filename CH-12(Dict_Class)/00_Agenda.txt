@@ -1,0 +1,11 @@
+Agenda
+
+1> dict introduction 
+2> creating dict object
+3> accessing dict elements
+4> built-in elements 
+5> Concatenation and Repetition 
+6> Comparison operator 
+7> dict object methods 
+8> dict comprehensino
+9> user input
