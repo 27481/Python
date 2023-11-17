@@ -1,6 +1,6 @@
 # Python does have a constructor method called __init__() that is called when an object is created from a class. The __init__() method is used to initialize the instance variables of the class.
 
-
+#! _ _init_ _ is speciall method as it is called by itself when the object is created
 
 #! Here is an example of a class with an __init__() method:
 

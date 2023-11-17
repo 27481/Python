@@ -1,0 +1,7 @@
+There are 3 types of method in python 
+
+1> instance method ==> (works with instance variable)  
+
+2> class method ==> (works with class variable)
+
+3> static method ==> (works with itself individually)

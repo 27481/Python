@@ -15,10 +15,12 @@ sorted_set = sorted({4, 2, 3, 1})
 # split() method only works for strings
 my_string = "Hello World"
 my_list = my_string.split()
+print(my_list)
 
 # join() method only works for strings
 my_list = ['Hello', 'World']
 my_string = ' '.join(my_list)
+print(my_string)
 
 # items() and keys() methods only work for dictionaries
 my_dict = {'a': 1, 'b': 2, 'c': 3}

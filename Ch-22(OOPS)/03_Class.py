@@ -18,13 +18,13 @@ class utkarsh:
 
 
 var1=utkarsh(); #! 1st Object of class Datatype 
-var1.cpu="2100541530051"
+var1.cpu="i7"
 var1.ram="16"
 
 var2=utkarsh(); #! 2nd Object of class Datatype  
 var2.cpu="2100541530050"
 
-print(var1.cpu,var2.cpu)
+print(var1.cpu," ",var2.cpu)
 
 utkarsh.show() #! show is function here but technically its a method as it is declared inside the class
 

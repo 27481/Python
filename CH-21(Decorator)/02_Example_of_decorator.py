@@ -10,6 +10,7 @@ def decor_result(result_func):
             result_func(marks)
     return distinction
 
+
 @decor_result
 def result(marks):
     for m in marks:

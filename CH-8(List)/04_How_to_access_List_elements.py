@@ -16,4 +16,4 @@ print(l1[1],l1[2]);     # 20 80
 #! we get the following error : IndexError:list index is out of range
 
 #* To know the type of an individual element in an list is 
-print(type(l1[2]));
+print(type(l1[1]));

@@ -1,0 +1,46 @@
+In Python, the self parameter serves a similar purpose to the this pointer in C++.
+
+ Both self and this are 
+               conventions used to reference the instance of the class within its methods, helping to disambiguate between instance variables and local variables or parameters.
+
+Python ==> 
+
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+
+    def print_value(self):
+        print(self.x)
+
+# Create an instance of MyClass
+obj = MyClass(42)
+
+# Call the method using the instance
+obj.print_value()
+
+
+C++==> 
+#include <iostream>
+
+class MyClass {
+public:
+    int x;
+
+    MyClass(int x) {
+        this->x = x;
+    }
+
+    void print_value() {
+        std::cout << this->x << std::endl;
+    }
+};
+
+int main() {
+    // Create an instance of MyClass
+    MyClass obj(42);
+
+    // Call the method using the instance
+    obj.print_value();
+
+    return 0;
+}

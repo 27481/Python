@@ -7,6 +7,6 @@ using namespace std;
 int main(){
     int first,second;
     cin>>first>>second;
-    (first>second)?cout<<"The greatest number is"<<first : cout<<"The greatest number is"<<second;
+    first>second?cout<<"The greatest number is"<<first : cout<<"The greatest number is"<<second;
     return 0;
 }

@@ -17,7 +17,6 @@ it=iter(l1) #! Here this iter() function takes one iterable as arugment and retu
 print(type(it)) #! This it is a list iterator 
 
 #* What is iter() function?
-
 #* sol ==>> iter() function takes one iterable as an argument and returns iterator  object which is pointing to the first element of the container object
 
 
@@ -26,3 +25,8 @@ print(type(it)) #! This it is a list iterator
   #! for list its is <class 'list_iterator'> list_iterator
 
 
+my_list = [1, 2, 3, 4, 5]
+
+# Using a for loop
+for element in my_list:
+    print(element)

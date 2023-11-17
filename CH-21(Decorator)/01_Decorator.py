@@ -4,8 +4,7 @@
 The job of decorator is to modify the functionality of a method
 """
 
-
-#! input function ------>>decorator------>>>output function with modified functionality
+#! input function ----->>decorator---->>> output function with modified functionality
 
 
 def result(marks):
@@ -17,6 +16,7 @@ def result(marks):
             break
     else:
         print("Pass")
+
 
 
 def decor_result(result_func): #! defining a decorator and giving it res() as argument
