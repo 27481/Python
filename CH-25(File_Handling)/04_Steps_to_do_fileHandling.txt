@@ -1,0 +1,16 @@
+                File Handling Steps 
+
+
+            
+step 1=> Open a file 
+step2 => Read/Write
+step3 => close a file 
+
+
+step <1>
+f=open(file name, file opening modes)
+
+
+step <2>
+close a file 
+f.close()

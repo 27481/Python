@@ -1,0 +1,15 @@
+                                   Two Types of files 
+
+
+1> Text File
+       i> It stores data as a sequence of characters 
+      ii> Data is stored in the form of ASCII characters
+     iii> Text files are organised around lines,each of which ends with a newline characters
+      iv> Even the .py file(source file) is a text file 
+
+
+
+2> Binary files
+     i> Data is stored as a sequence of bytes 
+    ii> It is normally used to store non-textual information
+

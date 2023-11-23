@@ -1,0 +1,22 @@
+Database 
+ SQL vs NOSQL
+
+{
+    Database SQL
+
+       1 > Oracle                    
+       2> MYSQL
+       3> PostGres (open source)
+       4> SQL server
+       5> SQL Lite
+       6> MariaDB
+ }
+
+
+ {
+    Database NOSQL
+     
+       1>MongoDB
+       2>Casandra
+       3>Red's
+ }

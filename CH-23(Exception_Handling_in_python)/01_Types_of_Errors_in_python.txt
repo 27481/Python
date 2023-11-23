@@ -1,0 +1,7 @@
+Errors are of 3 Types 
+
+1> compile time error  -> issue in syntax
+2> Runtime error  -> it mostly occurs because of dataType and typecasting eg= 10/0 given as input by user
+3> Logical error -> output is illogical 
+
+fixing logical error is very difficult (it needs proper debugging and testing by tester)

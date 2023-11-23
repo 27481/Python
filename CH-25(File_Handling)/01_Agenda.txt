@@ -1,0 +1,9 @@
+1> Introduction to file handling 
+2> Types of files 
+3> File handling steps
+4> File opening modes 
+5> Write , append, read, search , modify and delte file data 
+6> Removing and Renaming  a file 
+7> Various attributes of file 
+8> Pickle 
+
